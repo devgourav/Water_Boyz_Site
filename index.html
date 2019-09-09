@@ -7,16 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body id="top">
   <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
+
   <div class="wrapper row1">
     <header id="header" class="clear">
       <!-- ################################################################################################ -->
@@ -26,59 +27,37 @@
         </h1>
       </div>
       <!-- ################################################################################################ -->
-      <!-- <nav id="mainav" class="fl_right">
+      <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li class="active">
-            <a href="index.html"></a>
-          </li>
-          <li><a class="drop" href="#">Pages</a>
-          <ul>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/full-width.html">Full Width</a></li>
-            <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#">Dropdown</a>
-          <ul>
-            <li><a href="#">Level 2</a></li>
-            <li><a class="drop" href="#">Level 2 + Drop</a>
-              <ul>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="#">Link Text</a></li>
-        <li><a href="#">Link Text</a></li> 
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="./contact-form.html">Contact Form</a></li>
         </ul>
-      </nav> -->
+      </nav>
       <!-- ################################################################################################ -->
     </header>
   </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div class="wrapper">
     <div id="slider" class="clear">
       <!-- ################################################################################################ -->
       <div class="flexslider basicslider">
         <ul class="slides">
-          <li><img src="images/clean-water-pour-drinking-700-350.jpg" alt="" style="width:100%;">
+          <li>
+            <!-- <img src="images/clean-water-pour-drinking-700-350.jpg" alt="" style="width:100%;"> -->
+            <div class="videoBackground">
+              <video autoplay muted loop playsinline id="myVideo" poster="./images/pouring_water_glass.jpg">
+                <source src=" images/water_pouring.mp4" type="video/mp4">
+              </video>
+            </div>
             <div class="txtoverlay">
               <div class="centralise">
                 <div class="verticalwrap">
                   <article>
-                    <h2 class="heading uppercase">Bottled Water Delivery for Varanasi</h2>
-                    <p>
-                      <a class="btn pushright" style="background-color: #039be5
-                      " href="#footer"><span class="fa fa-mobile fa-lg"></span>&nbsp;&nbsp;&nbsp;CONTACT US</a>
-                      <a class="btn pushright" style="background-color: #039be5;
-                      " href="https://play.google.com/store/apps/details?id=com.devworkxlabs.waterboyz&hl=en"><span
-                          class="fa fa-android fa-lg"></span>&nbsp;&nbsp;&nbsp;GET
-                        APP</a>
+                    <h2 class="heading uppercase">BEST WATER IN VARANASI</h2>
+                    <a class="btn pushright"
+                      href="https://play.google.com/store/apps/details?id=com.devworkxlabs.waterboyz&hl=en"><span
+                        class="fa fa-android fa-lg"></span>&nbsp;&nbsp;&nbsp;GET
+                      APP</a>
                   </article>
                 </div>
               </div>
@@ -90,8 +69,6 @@
       <!-- ################################################################################################ -->
     </div>
   </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div class="wrapper row2">
     <div id="services" class="clear">
@@ -130,18 +107,17 @@
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div class="wrapper row6">
+  <!-- <div class="wrapper row6">
     <section id="cta" class="clear">
-      <!-- ################################################################################################ -->
+
       <div class="three_quarter first">
         <h2 class="heading">Download our mobile app for faster orders and tracking.</h2>
       </div>
       <div class="one_quarter"><a class="btn"
           href="https://play.google.com/store/apps/details?id=com.devworkxlabs.waterboyz&hl=en"><span
             class="fa fa-android fa-lg"></span>&nbsp;&nbsp;&nbsp;Download Now</a></div>
-      <!-- ################################################################################################ -->
     </section>
-  </div>
+  </div> -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
@@ -155,33 +131,33 @@
           <ul class="nospace group">
             <li>
               <article class="service largeicon">
-                <i class="icon blue circle fa fa-mobile"></i>
-                <h6 class="heading"><a
-                    href="https://play.google.com/store/apps/details?id=com.devworkxlabs.waterboyz&hl=en">Download our
-                    App</a></h6>
-                <p>Download our app from playstore</p>
+                <i class="icon green circle fa fa-mobile"></i>
+                <h6 class="heading">Download our
+                  App</h6>
+                <p><a href="https://play.google.com/store/apps/details?id=com.devworkxlabs.waterboyz&hl=en">Download</a>
+                  our app from playstore</p>
               </article>
             </li>
             <li>
-              <article class="service largeicon"><i class="icon blue circle fa fa-list"></i>
+              <article class="service largeicon"><i class="icon green circle fa fa-list"></i>
                 <h6 class="heading">Browse our Selection</h6>
                 <p>Select from our wise range of brands</p>
               </article>
             </li>
             <li>
-              <article class="service largeicon"><i class="icon blue circle fa fa-map-marker"></i>
+              <article class="service largeicon"><i class="icon green circle fa fa-map-marker"></i>
                 <h6 class="heading">Provide Delivery Address</h6>
                 <p>Choose a delivery address in Varansi</p>
               </article>
             </li>
             <li>
-              <article class="service largeicon"><i class="icon blue circle fa fa-motorcycle"></i>
+              <article class="service largeicon"><i class="icon green circle fa fa-motorcycle"></i>
                 <h6 class="heading">Get Water Delivered to your house.</h6>
                 <p>Sitback and relax as we deliver thw ater to your house.</p>
               </article>
             </li>
             <li>
-              <article class="service largeicon"><i class="icon blue circle fa fa-credit-card"></i>
+              <article class="service largeicon"><i class="icon green circle fa fa-credit-card"></i>
                 <h6 class="heading">Pay by Cash or Paytm</h6>
                 <p>Keep your payment handy upon delivery.</p>
               </article>
@@ -213,7 +189,8 @@
         <ul class="nospace" style="  font-family: 'Merriweather', serif;
         ">
           <li class="btmspace-10"><span class="fa fa-phone"></span> +91-9572848785 / +91-7991129595</li>
-          <li><span class="fa fa-envelope-o"></span> contact@waterboyz.in</li>
+          <li><span class="fa fa-envelope-o"></span><a href="mailto:contact@waterboyz.in"> contact@waterboyz.in </a>
+          </li>
         </ul>
       </div>
       <div class="one_half">
@@ -228,7 +205,6 @@
         <ul class="faico clear">
           <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
           <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
         </ul>
       </div>
       <!-- ################################################################################################ -->
